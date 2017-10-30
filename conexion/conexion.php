@@ -1,8 +1,8 @@
 <?php
 
 $dsn = 'mysql:dbname=solicitud_actividad;host=localhost';
-$user = 'root';
-$password = '';
+$user = 'Hernan30';
+$password = 'nWDsNfdMvMB3jtLS';
 
 try{
 

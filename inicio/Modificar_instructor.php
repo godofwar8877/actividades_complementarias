@@ -106,6 +106,7 @@
 				            <th>APELLIDO PATERNO</th>
 				            <th>APELLIDO MATERNO</th>
 				            <th>ACTIVIDAD COMPLEMENTARIA</th>
+										<th>CAMBIAR</th>
 				            <th colspan="2">CAMBIAR</th>
 					    </tr>
 					  </thead>
@@ -119,7 +120,7 @@
 							<td><?php echo $rs2['Apellido_p_instructor']?></td>
 							<td><?php echo $rs2['Apellido_m_instructor']?></td>
 							<td><?php echo $rs2['Nombre_actividad']?></td>
-							<td><a class="btn waves-effect waves-light" href="Modificar_instructor.php?RFC_instructor=<?php echo $rs2['RFC_instructor']; ?>">CAMBIAR</a></td>
+							<td><a class="btn waves-effect waves-light grey" href="Modificar_instructor.php?RFC_instructor=<?php echo $rs2['RFC_instructor']; ?>">CAMBIAR</a></td>
 							<td><a class="btn waves-effect waves-light black" onclick="delete_instructor(<?php echo $rs2['RFC_instructor']; ?>)" href="#">ELIMINAR</a>
 							</tr>
 					    <?php

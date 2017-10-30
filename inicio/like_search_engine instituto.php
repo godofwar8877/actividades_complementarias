@@ -2,7 +2,7 @@
 
 require_once('../conexion/conexion.php');
 
-$titulo = 'Búsqueda';
+$titulo = 'BUSCADOR';
 
 $sql = 'SELECT * FROM instituto WHERE 1';
 $search_terms = isset($_GET['Nombre_instituto']) ? $_GET['Nombre_instituto'] : '';

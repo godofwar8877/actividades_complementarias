@@ -123,6 +123,7 @@
 				            <th>APELLIDO MATERNO</th>
 				            <th>SEMESTRE</th>
 				            <th>CARRERA</th>
+										<th>CAMBIAR</th>
 				            <th colspan="2">CAMBIAR</th>
 
 					    </tr>

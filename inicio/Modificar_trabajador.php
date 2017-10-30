@@ -89,6 +89,7 @@
                     <th>APELLIDO PATERNO</th>
     				        <th>APELLIDO MATERNO</th>
                     <th>CLAVE PRESUPUESTAL</th>
+										<th>CAMBIAR</th>
         				     <th colspan="2">CAMBIAR</th>
 					    </tr>
 					  </thead>
@@ -102,7 +103,7 @@
               <td><?php echo $rs2['Apellido_p_trabajador']?></td>
               <td><?php echo $rs2['Apellido_m_trabajador']?></td>
               <td><?php echo $rs2['clave_presupuestal']?></td>
-							<td><a class="btn waves-effect waves-light" href="Modificar_trabajador.php?RFC_trabajador=<?php echo $rs2['RFC_trabajador']; ?>">CAMBIAR</a></td>
+							<td><a class="btn waves-effect waves-light grey" href="Modificar_trabajador.php?RFC_trabajador=<?php echo $rs2['RFC_trabajador']; ?>">CAMBIAR</a></td>
 							<td><a class="btn waves-effect waves-light black" onclick="delete_trabajador(<?php echo $rs2['RFC_trabajador']; ?>)" href="#">ELIMINAR</a>
 					    </tr>
 					    <?php

@@ -69,6 +69,7 @@
 					    <tr>
 					    	<th>CLAVE DE CARRERA</th>
 				         <th>NOMBRE DE CARRERA</th>
+								 <th>CAMBIAR</th>
                  <th colspan="2">CAMBIAR</th>
 					    </tr>
 					  </thead>
@@ -79,7 +80,7 @@
 					    <tr>
 					    	<td><?php echo $rs2['Clave_carrera']?></td>
 							<td><?php echo $rs2['Nombre_carrera']?></td>
-							<td><a class="btn waves-effect waves-light" href="Modificar_carrera.php?Clave_carrera=<?php echo $rs2['Clave_carrera']; ?>">CAMBIAR</a></td>
+							<td><a class="btn waves-effect waves-light grey" href="Modificar_carrera.php?Clave_carrera=<?php echo $rs2['Clave_carrera']; ?>">CAMBIAR</a></td>
 							<td><a class="btn waves-effect waves-light black" onclick="delete_carrera(<?php echo $rs2['Clave_carrera']; ?>)" href="#">ELIMINAR</a>
 					    </tr>
 					    <?php

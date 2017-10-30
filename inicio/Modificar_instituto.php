@@ -70,6 +70,7 @@
 					    <tr>
 					    			<th>CLAVE DE INST.</th>
 				          	<th>NOMBRE DE INST.</th>
+										<th>CAMBIAR</th>
                     <th colspan="2">CAMBIAR</th>
 
 					    </tr>
@@ -82,7 +83,7 @@
 					    	<td><?php echo $rs2['Clave_instituto']?></td>
 							<td><?php echo $rs2['Nombre_instituto']?></td>
 
-							<td><a class="btn waves-effect waves-light" href="Modificar_instituto.php?Clave_instituto=<?php echo $rs2['Clave_instituto']; ?>">CAMBIAR</a></td>
+							<td><a class="btn waves-effect waves-light grey" href="Modificar_instituto.php?Clave_instituto=<?php echo $rs2['Clave_instituto']; ?>">CAMBIAR</a></td>
 							<td><a class="btn waves-effect waves-light black" onclick="delete_instituto(<?php echo $rs2['Clave_instituto']; ?>)" href="#">ELIMINAR</a>
 					    </tr>
 					    <?php

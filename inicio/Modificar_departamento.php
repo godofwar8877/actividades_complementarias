@@ -89,6 +89,7 @@
 					    	<th>CLAVE DEPARTAMENTO</th>
 				          	<th>NOMBRE DEL DEPARTAMENTO</th>
 				            <th>NOMBRE DEL TRABAJADOR</th>
+										<th>CAMBIAR</th>
 				            <th colspan="2">CAMBIAR</th>
 					    </tr>
 					  </thead>
@@ -100,7 +101,7 @@
 					    	<td><?php echo $rs2['Clave_departamento']?></td>
 							<td><?php echo $rs2['nombre_departamento']?></td>
 							<td><?php echo $rs2['Nombre_trabajador']?></td>
-							<td><a class="btn waves-effect waves-light" href="Modificar_departamento.php?Clave_departamento=<?php echo $rs2['Clave_departamento']; ?>">CAMBIAR</a></td>
+							<td><a class="btn waves-effect waves-light grey" href="Modificar_departamento.php?Clave_departamento=<?php echo $rs2['Clave_departamento']; ?>">CAMBIAR</a></td>
 							<td><a class="btn waves-effect waves-light black" onclick="delete_departamento(<?php echo $rs2['Clave_departamento']; ?>)" href="#">ELIMINAR</a>
 					    </tr>
 					    <?php

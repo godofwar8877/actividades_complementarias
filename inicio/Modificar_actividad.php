@@ -68,6 +68,7 @@
 					    <tr>
 					    	<th>NUMERO DE ACTIVIDAD</th>
 				        <th>NOMBRE DE ACTIVIDAD</th>
+								<th> CAMBIAR</th>
 								<th colspan="2">CAMBIAR</th>
 					    </tr>
 					  </thead>
@@ -78,7 +79,7 @@
 					    <tr>
 					    	<td><?php echo $rs2['Num_actividad']?></td>
 							<td><?php echo $rs2['Nombre_actividad']?></td>
-							<td><a class="btn waves-effect waves-light" href="Modificar_actividad.php?Num_actividad=<?php echo $rs2['Num_actividad']; ?>">CAMBIAR</a></td>
+							<td><a class="btn waves-effect waves-light grey" href="Modificar_actividad.php?Num_actividad=<?php echo $rs2['Num_actividad']; ?>">CAMBIAR</a></td>
 							<td><a class="btn waves-effect waves-light black" onclick="delete_actividad(<?php echo $rs2['Num_actividad']; ?>)" href="#">ELIMINAR</a>
 					    </tr>
 					    <?php

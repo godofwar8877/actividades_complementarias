@@ -182,6 +182,7 @@
 				            <th>DEPARTAMENTO</th>
                     <th>INSTITUTO</th>
 										<th>CAMBIAR</th>
+										<th colspan="2">CAMBIAR</th>
 					    </tr>
 					  </thead>
 					  <tbody>
@@ -197,7 +198,7 @@
 							<td><?php echo $rs2['Nombre_instructor']?></td>
 							<td><?php echo $rs2['nombre_departamento']?></td>
               	<td><?php echo $rs2['Nombre_instituto']?></td>
-							<td><a class="btn waves-effect waves-light" href="Modificar_solicitud.php?Folio=<?php echo $rs2['Folio']; ?>">CAMBIAR</a></td>
+							<td><a class="btn waves-effect waves-light grey" href="Modificar_solicitud.php?Folio=<?php echo $rs2['Folio']; ?>">CAMBIAR</a></td>
 							<td><a class="btn waves-effect waves-light black" onclick="delete_solicitud(<?php echo $rs2['Folio']; ?>)" href="#">ELIMINAR</a>
 
 					    </tr>
